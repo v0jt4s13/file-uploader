@@ -1,0 +1,17 @@
+{
+    "7946bda0fc758bc700c17a68f49ec17c44d83494fa5706bd95727dc471377663": {
+        "email": "test@domain.com",
+        "access_key": "$2y$10$UTix\/YLUYLka2nhiCmLmtulgr.NAQxABY8EVlfJJAqU2hJ3Uppa0K",
+        "events": [
+            {
+                "timestamp": "2024-10-10T13:31:53+02:00",
+                "ip": "127.0.0.1",
+                "eventname": "download.php"
+            }
+        ]
+    },
+    "e53b410b0657861fa2553ebb63e2be90fb81e3e42e8a42ed650137a9d76b2f2d": {
+        "email": "test1@example.com",
+        "access_key": "$2y$10$WjFq7VpjR6c9.8QyPlEQouPBS1RXMeT1DnxtQYKAJOlnyqTxTSss6"
+    }
+}

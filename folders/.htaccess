@@ -1,0 +1,9 @@
+# Blokowanie bezpośredniego dostępu do katalogu folders
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !\.jpg$ [NC]
+RewriteCond %{REQUEST_FILENAME} !\.jpeg$ [NC]
+RewriteCond %{REQUEST_FILENAME} !\.png$ [NC]
+RewriteCond %{REQUEST_FILENAME} !\.gif$ [NC]
+RewriteCond %{REQUEST_FILENAME} !\.pdf$ [NC]
+RewriteRule ^.*$ - [F,L]
